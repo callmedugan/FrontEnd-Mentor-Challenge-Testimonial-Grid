@@ -7,7 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 13px;
+    font-size: 16px;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
@@ -54,7 +54,7 @@ body{
 }
 
 .grid-item p{
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     opacity: 0.7;
 }
 
@@ -67,12 +67,12 @@ body{
 
 .header-img{
     border-radius: 50%;
-    height: 30px;
+    height: 40px;
     border: white solid var(--icon-border-width);
 }
 
 .header p{
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     opacity: 0.5;
 }
 
@@ -92,13 +92,13 @@ body{
 {
     #main-container{
         display: flex;
-        max-width: 850px;
-        max-height: 600px;
+        max-width: 1440px;
         gap: var(--item-gap);
     }
 
     #top, #bottom{
         display: flex;
+        height: 100%;
         gap: var(--item-gap);
     }
 
